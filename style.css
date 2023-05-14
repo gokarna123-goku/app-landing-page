@@ -124,12 +124,18 @@ nav{
     display: flex;
     align-items: center;
     text-transform: capitalize;
+    color: var(--tertiary-color);
 }
 .left_section h5{
     font-family: 'Arial';
     font-weight: 700;
     font-size: 2rem;
-    line-height: 2.625rem;
+    line-height: 3.25rem;
+    color: var(--tertiary-color);
+}
+.left_section ul{
+    margin-left: 1rem;
+    color: var(--tertiary-color);
 }
 
 .right_section{
