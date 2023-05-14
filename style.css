@@ -16,18 +16,70 @@ li{
 }
 
 :root{
-    --bg-color: #fafafa;
+    --bg-color: #fbfbfb;
     --primary-color: #333333;
     --secondary-color: #38B9F4;
-    --tertiary-color: #888888;
+    --tertiary-color: #f9f9f9;
+}
+
+/* Global Button Styling */
+.btn{
+    height: 38px;
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.04rem;
+    outline: none;
+    border: 2px solid var(--secondary-color);
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 /* Main Section Styling */
 .main_section{
     width: 100%;
     height: auto;
+    background: var(--bg-color);
     overflow: hidden;
-    
+    padding: 20px 100px;
+}
+
+/* Navbar Styling */
+nav{
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--secondary-color);
+    margin-bottom: 1.2rem;
+}
+
+
+/* Nav Logo Section */
+.logo_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo_section img{
+    width: 200px;
+    height: 5vh;
+}
+
+/* Button Section Styling */
+.btn_section{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+.share_btn{
+    width: 140px;
+}
+.download_btn{
+    width: 170px;
 }
 
 
