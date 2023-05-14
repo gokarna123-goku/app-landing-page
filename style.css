@@ -122,7 +122,32 @@ nav{
     line-height: 2.875rem;
     color: var(--secondary-color);
 }
-
+.result_data_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.result_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.result_counter{
+    font-size: 2.75rem;
+    font-weight: 700;
+    line-height: 3.125rem;
+    color: var(--secondary-color);
+}
+.result_data_title{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.125;
+    color: var(--primary-color);
+}
 
 
 
