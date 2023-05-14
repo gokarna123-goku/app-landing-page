@@ -210,6 +210,9 @@ nav{
     font-size: 1.5rem;
     line-height: 2.125;
     color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    column-gap: 0.7rem;
 }
 .result_data_title .total{
     display: none;
@@ -315,6 +318,9 @@ nav{
     .play_btn {
         width: 32px;
         height: 32px;
+    }
+    .result_data_box {
+        gap: 1.0rem;
     }
     .result_tile {
         font-size: 1.5rem;
