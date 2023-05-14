@@ -53,6 +53,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 2.563rem;
 }
 
 
@@ -88,8 +89,8 @@ nav{
 
 /* Carousel Section */
 .swiper{
-    width: 100%;
-    height: 55vh;
+    width: 894px;
+    height: 344px;
     border-radius: 6px;
     margin-bottom: 2.625rem;
 }
@@ -98,14 +99,43 @@ nav{
     height: 100%;
 }
 .swiper-slide{
+    position: relative;
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    background: var(--secondary-color);
+}
+
+/* Carousel Left Section */
+.left_section{
+    width: 55%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    margin-left: 2.25rem;
+}
+
+.carousel_title{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.right_section{
+    width: 40%;
+    height: 45vh;
 }
 .swiper_img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+    width: 60%;
+    height: 60%;
 }
 
 /* Results Section */
