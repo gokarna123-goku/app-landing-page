@@ -54,7 +54,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid var(--secondary-color);
-    margin-bottom: 1.2rem;
+    /* margin-bottom: 1.2rem; */
 }
 
 
@@ -80,6 +80,19 @@ nav{
 }
 .download_btn{
     width: 170px;
+}
+
+/* Landing Page Section Styling */
+.landing_page_section{
+    width: 100%;
+    height: auto;
+}
+
+/* Carousel Section */
+.swiper{
+    width: 100%;
+    height: 45vh;
+    background: #333333;
 }
 
 
