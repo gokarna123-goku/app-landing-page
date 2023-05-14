@@ -21,7 +21,7 @@ a{
 
 /* Global Button Styling */
 .btn{
-    height: 52px;
+    height: 38px;
     background: var(--secondary-color);
     color: var(--tertiary-color);
     font-size: 1.5rem;
@@ -40,18 +40,18 @@ a{
     height: auto;
     background: var(--bg-color);
     /* overflow: hidden; */
-    padding: 20px 100px;
+    padding: 10px 100px;
 }
 
 /* Navbar Styling */
 nav{
     width: 100%;
     height: auto;
-    padding: 10px 0;
+    padding: 8px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 0.563rem;
+    margin-bottom: 0rem;
 }
 
 
@@ -83,7 +83,7 @@ nav{
 .landing_page_section{
     width: 100%;
     height: auto;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.8rem;
 }
 
 /* Carousel Section */
@@ -97,11 +97,11 @@ nav{
 .video_section{
     position: relative;
     width: 894px;
-    height: 344px;
+    height: 260px;
     display: flex;
     align-items: center;
     border-radius: 6px;
-    margin-bottom: 0.625rem;
+    margin-bottom: 0.425rem;
     background: var(--secondary-color);
 }
 
@@ -121,7 +121,7 @@ nav{
     font-style: normal;
     font-weight: 700;
     font-size: 4rem;
-    line-height: 4.68rem;
+    line-height: 3.68rem;
     display: flex;
     align-items: center;
     text-transform: capitalize;
@@ -175,14 +175,14 @@ nav{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.0rem;
 }
 .result_tile{
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 2.875rem;
     color: var(--secondary-color);
-    margin-bottom: 2.938rem;
+    margin-bottom: 0.8rem;
 }
 .result_data_box{
     width: 100%;
@@ -190,7 +190,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5.75rem;
+    column-gap: 5.75rem;
 }
 .result_card{
     display: flex;
@@ -199,15 +199,15 @@ nav{
     flex-direction: column;
 }
 .result_counter{
-    font-size: 2.75rem;
+    font-size: 2.0rem;
     font-weight: 700;
-    line-height: 3.125rem;
+    line-height: 2.025rem;
     color: var(--secondary-color);
 }
 .result_data_title{
     font-weight: 700;
-    font-size: 1.5rem;
-    line-height: 2.125;
+    font-size: 1.3rem;
+    line-height: 1.125;
     color: var(--primary-color);
     display: flex;
     align-items: center;
@@ -322,7 +322,7 @@ nav{
     .landing_page_section {
         margin-bottom: 1.0rem;
     }
-    .swiper {
+    .video_section {
         width: 100%;
         height: 170px;
         margin-bottom: 0.025rem;
@@ -430,7 +430,7 @@ nav{
     .right_section{
         width: 30%;
     }
-    .swiper-slide a {
+    .video_section a {
         top: 60%;
         left: 60%;
         transform: translate(-50%, -40%);
