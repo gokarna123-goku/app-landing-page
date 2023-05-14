@@ -89,6 +89,7 @@ nav{
     height: 15vh;
     background: var(--primary-color);
     float: right;
+    right: -100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,6 +126,16 @@ nav{
     font-size: 2.5rem;
 }
 
+/* For Click to show */
+.social_section{
+    position: fixed;
+    right: -100%;
+    z-index: 9999;
+    transition: all 0.68s ease-out;
+}
+.social_section.showSocialLink{
+    right: 100px;
+}
 
 
 /* Landing Page Section Styling */
@@ -332,6 +343,23 @@ nav{
     .download_btn {
         display: none;
     }
+    .social_section{
+        width: 380px;
+        height: 15vh;
+    }
+    .social_section{
+        right: -200%;
+    }
+    .social_section.showSocialLink{
+        right: 10px;
+    }
+    .social_card{
+        width: 45px;
+        height: 45px;
+    }
+    .social_card i{
+        font-size: 2.0rem;
+    }
     .carousel_title {
         font-size: 3.0rem;
         line-height: 3.68rem;
@@ -366,6 +394,23 @@ nav{
         width: 150px;
         height: 43px;
         font-size: 20px;
+    }
+    .social_section{
+        width: 340px;
+        height: 15vh;
+    }
+    .social_section{
+        right: -200%;
+    }
+    .social_section.showSocialLink{
+        right: 10px;
+    }
+    .social_card{
+        width: 35px;
+        height: 35px;
+    }
+    .social_card i{
+        font-size: 2.0rem;
     }
     .landing_page_section {
         margin-bottom: 1.0rem;
@@ -464,6 +509,23 @@ nav{
 @media screen and ( max-width: 375px ) {
     .left_section {
         width: 70%;
+    }
+    .social_section{
+        width: 330px;
+        height: 15vh;
+    }
+    .social_section{
+        right: -200%;
+    }
+    .social_section.showSocialLink{
+        right: 10px;
+    }
+    .social_card{
+        width: 35px;
+        height: 35px;
+    }
+    .social_card i{
+        font-size: 1.7rem;
     }
     .carousel_title {
         font-size: 1.4rem;

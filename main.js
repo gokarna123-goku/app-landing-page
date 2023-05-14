@@ -1,8 +1,8 @@
 //
 
 $(document).ready(function () {
-  $("#toggleIcon").click(function () {
-    $("ul").toggleClass("showNavbar");
+  $("#socialButton").click(function () {
+    $("#social_section").toggleClass("showSocialLink");
   });
 });
 
