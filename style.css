@@ -24,7 +24,7 @@ a{
     height: 45px;
     background: var(--secondary-color);
     color: var(--tertiary-color);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 400;
     letter-spacing: 0.04rem;
     line-height: 1.375rem;
@@ -62,7 +62,7 @@ nav{
     justify-content: center;
 }
 .logo_section img{
-    width: 200px;
+    width: 240px;
     height: 5.5vh;
 }
 
@@ -73,7 +73,7 @@ nav{
     column-gap: 1.5rem;
 }
 .share_btn{
-    width: 188px;
+    width: 150px;
 }
 .download_btn{
     width: 188px;
@@ -387,13 +387,13 @@ nav{
         margin-bottom: 0rem;
     }
     .logo_section img {
-        width: 170px;
+        width: 205px;
         height: 5.5vh;
     }
     .share_btn{
-        width: 150px;
-        height: 43px;
-        font-size: 20px;
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
     }
     .social_section{
         width: 340px;
