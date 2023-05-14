@@ -320,6 +320,9 @@ nav{
         height: 30px;
         font-size: 12px;
     }
+    .landing_page_section {
+        margin-bottom: 1.0rem;
+    }
     .swiper {
         width: 100%;
         height: 170px;
@@ -348,7 +351,7 @@ nav{
         height: 32px;
     }
     .result_section {
-        margin-bottom: 1.0rem;
+        margin-bottom: 0rem;
     }
     .result_card{
         width: 100%;
@@ -381,7 +384,7 @@ nav{
         display: none;
     }
     .download_button_section {
-        margin-bottom: 0.7rem;
+        margin-bottom: 0.4rem;
     }
     .detail_small_card{
         width: 100%;
