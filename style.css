@@ -11,9 +11,6 @@
 a{
     text-decoration: none;
 }
-li{
-    list-style: none;
-}
 
 :root{
     --bg-color: #FFFFFF;
@@ -109,12 +106,12 @@ nav{
 
 /* Carousel Left Section */
 .left_section{
-    width: 55%;
+    width: 60%;
     height: auto;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
-    row-gap: 0.5rem;
+    /* row-gap: 0.5rem; */
     margin-left: 2.25rem;
 }
 
@@ -122,20 +119,26 @@ nav{
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 74px;
+    font-size: 4rem;
+    line-height: 4.68rem;
     display: flex;
     align-items: center;
     text-transform: capitalize;
 }
+.left_section h5{
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.625rem;
+}
 
 .right_section{
     width: 40%;
-    height: 45vh;
+    height: 100%;
 }
-.swiper_img{
-    width: 60%;
-    height: 60%;
+.carousel_img{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /* Results Section */
