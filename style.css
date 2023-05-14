@@ -51,7 +51,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 2.563rem;
+    margin-bottom: 0.563rem;
 }
 
 
@@ -87,22 +87,21 @@ nav{
 }
 
 /* Carousel Section */
-.swiper{
-    width: 894px;
-    height: 344px;
-    border-radius: 6px;
-    margin-bottom: 2.625rem;
-}
-.swiper-wrapper{
+.hero_video_section{
     width: 100%;
-    height: 100%;
-}
-.swiper-slide{
-    position: relative;
-    width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+.video_section{
+    position: relative;
+    width: 894px;
+    height: 344px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    margin-bottom: 0.625rem;
     background: var(--secondary-color);
 }
 
@@ -142,7 +141,7 @@ nav{
 .left_section ul li{
     font-size: 1.3rem;
 }
-.swiper-slide a{
+.video_section a{
     position: absolute;
     top: 50%;
     left: 50%;
