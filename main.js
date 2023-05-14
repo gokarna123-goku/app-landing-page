@@ -1,11 +1,9 @@
 //
 
-var swiper = new Swiper(".mySwiper", {
-  spaceBetween: 30,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
+$(document).ready(function () {
+  $("#toggleIcon").click(function () {
+    $("ul").toggleClass("showNavbar");
+  });
 });
 
 // End of JavaScript

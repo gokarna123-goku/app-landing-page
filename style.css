@@ -175,7 +175,7 @@ nav{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 1.3rem;
+    margin-bottom: 1.0rem;
 }
 .result_tile{
     font-size: 2.25rem;
@@ -265,7 +265,7 @@ nav{
 /* max-width 1024px */
 @media screen and ( max-width: 1024px ) {
     .main_section {
-        padding: 20px 50px;
+        padding: 10px 50px;
     }
     .swiper {
         width: 100%;
@@ -276,7 +276,7 @@ nav{
 /* max-width 768px */
 @media screen and ( max-width: 768px ) {
     .main_section {
-        padding: 20px 40px;
+        padding: 10px 40px;
     }
     .share_btn{
         width: 100px;
@@ -305,7 +305,7 @@ nav{
 /* max-width 425px */
 @media screen and ( max-width: 450px ) {
     .main_section {
-        padding: 5px 10px;
+        padding: 0px 10px;
     }
     nav {
         margin-bottom: 0rem;
