@@ -306,21 +306,19 @@ nav{
 /* max-width 425px */
 @media screen and ( max-width: 450px ) {
     .main_section {
-        padding: 10px;
+        padding: 5px 10px;
     }
     nav {
         margin-bottom: 0rem;
     }
     .logo_section img {
         width: 170px;
+        height: 4.5vh;
     }
     .share_btn{
         width: 100px;
         height: 30px;
         font-size: 12px;
-    }
-    .landing_page_section {
-        margin-bottom: 0rem;
     }
     .swiper {
         width: 100%;
@@ -348,6 +346,9 @@ nav{
     .play_btn {
         width: 32px;
         height: 32px;
+    }
+    .result_section {
+        margin-bottom: 1.0rem;
     }
     .result_card{
         width: 100%;
@@ -378,6 +379,9 @@ nav{
     }
     .detail_section{
         display: none;
+    }
+    .download_button_section {
+        margin-bottom: 0.7rem;
     }
     .detail_small_card{
         width: 100%;
