@@ -211,6 +211,9 @@ nav{
     line-height: 2.125;
     color: var(--primary-color);
 }
+.result_data_title .total{
+    display: none;
+}
 
 
 /* Detail Section */
@@ -309,17 +312,22 @@ nav{
         font-size: 1.4rem;
         line-height: 3.25rem;
     }
-    .carousel_img {
-        object-fit: cover !important;
-        object-position: center !important;
-    }
     .play_btn {
         width: 32px;
         height: 32px;
     }
-    .result_data_box {
-        gap: 3.75rem;
-        flex-wrap: wrap;
+    .result_tile {
+        font-size: 1.5rem;
+        margin-bottom: 1.038rem;
+    }
+    .result_card{
+        width: 100%;
+    }
+    .app_download_card{
+        display: none;
+    }
+    .result_data_title .total{
+        display: block;
     }
     .detail_section{
         gap: 1.7rem;
