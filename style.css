@@ -302,10 +302,10 @@ nav{
 /* max-width 425px */
 @media screen and ( max-width: 450px ) {
     .main_section {
-        padding: 20px;
+        padding: 10px;
     }
     nav {
-        margin-bottom: 1.5rem;
+        margin-bottom: 0.5rem;
     }
     .logo_section img {
         width: 170px;
@@ -315,12 +315,15 @@ nav{
         height: 30px;
         font-size: 12px;
     }
+    .swiper {
+        margin-bottom: 1.025rem;
+    }
     .left_section {
         margin: 0.5rem;
     }
     .carousel_title {
         font-size: 1.7rem;
-        line-height: 2.68rem;
+        line-height: 2.4rem;
     }
     .left_section h5 {
         font-size: 1.4rem;
@@ -334,15 +337,23 @@ nav{
         width: 32px;
         height: 32px;
     }
+    .result_card{
+        width: 100%;
+    }
     .result_data_box {
         gap: 1.0rem;
     }
     .result_tile {
         font-size: 1.5rem;
-        margin-bottom: 1.038rem;
+        margin-bottom: 0.38rem;
     }
-    .result_card{
-        width: 100%;
+    .result_counter {
+        font-size: 1.75rem;
+        line-height: 1.925rem;
+    }
+    .result_data_title {
+        font-size: 1.25rem;
+        line-height: 1.125;
     }
     .app_download_card{
         display: none;
