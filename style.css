@@ -1,6 +1,6 @@
 /*  */
 /* Roboto Font Family */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 *{
     margin: 0;
@@ -160,16 +160,18 @@ nav{
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 .detail_card{
-    width: 255px;
+    width: 245px;
     height: 127px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 8px;
+    text-align: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 .detail_desc{
