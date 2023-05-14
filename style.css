@@ -16,10 +16,10 @@ li{
 }
 
 :root{
-    --bg-color: #fbfbfb;
+    --bg-color: #FFFFFF;
     --primary-color: #333333;
     --secondary-color: #38B9F4;
-    --tertiary-color: #f9f9f9;
+    --tertiary-color: #FFFFFF;
 }
 
 /* Global Button Styling */
@@ -90,7 +90,7 @@ nav{
 .swiper{
     width: 100%;
     height: 55vh;
-    background: #333333;
+    border-radius: 6px;
 }
 .swiper-wrapper{
     width: 100%;
@@ -103,7 +103,26 @@ nav{
 .swiper_img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
+
+/* Results Section */
+.result_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.result_tile{
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 2.875rem;
+    color: var(--secondary-color);
+}
+
 
 
 
