@@ -289,7 +289,7 @@ nav{
 }
 .detail_card{
     width: 245px;
-    height: 127px;
+    height: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -496,6 +496,9 @@ nav{
         align-items: center;
         justify-content: center;
         padding: 8px;
+    }
+    .detail_small_card .detail_card{
+        height: 127px;
     }
     .small_device{
         display: flex;
