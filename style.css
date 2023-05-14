@@ -21,7 +21,7 @@ a{
 
 /* Global Button Styling */
 .btn{
-    height: 38px;
+    height: 45px;
     background: var(--secondary-color);
     color: var(--tertiary-color);
     font-size: 1.5rem;
@@ -312,12 +312,12 @@ nav{
     }
     .logo_section img {
         width: 170px;
-        height: 4.5vh;
+        height: 5.5vh;
     }
     .share_btn{
-        width: 100px;
-        height: 30px;
-        font-size: 12px;
+        width: 150px;
+        height: 43px;
+        font-size: 20px;
     }
     .landing_page_section {
         margin-bottom: 1.0rem;
@@ -382,8 +382,9 @@ nav{
     .detail_section{
         display: none;
     }
-    .download_button_section {
-        margin-bottom: 0.4rem;
+    .download_app_btn{
+        width: 300px;
+        height: 45px;
     }
     .detail_small_card{
         width: 100%;
@@ -438,9 +439,9 @@ nav{
     .download_button_section{
         column-gap: 1.5rem;
     }
-    .download_button_section img{
-        width: 120px;
-        height: 35px;
+    .download_app_btn{
+        width: 300px;
+        height: 45px;
     }
 }
 
