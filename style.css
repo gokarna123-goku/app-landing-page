@@ -21,15 +21,16 @@ a{
 
 /* Global Button Styling */
 .btn{
-    height: 38px;
+    height: 52px;
     background: var(--secondary-color);
     color: var(--tertiary-color);
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 400;
     letter-spacing: 0.04rem;
+    line-height: 1.375rem;
     outline: none;
     border: 2px solid var(--secondary-color);
-    border-radius: 20px;
+    border-radius: 30px;
     cursor: pointer;
 }
 
@@ -38,7 +39,7 @@ a{
     width: 100%;
     height: auto;
     background: var(--bg-color);
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 20px 100px;
 }
 
@@ -72,16 +73,17 @@ nav{
     column-gap: 1.5rem;
 }
 .share_btn{
-    width: 140px;
+    width: 188px;
 }
 .download_btn{
-    width: 170px;
+    width: 188px;
 }
 
 /* Landing Page Section Styling */
 .landing_page_section{
     width: 100%;
     height: auto;
+    margin-bottom: 1.5rem;
 }
 
 /* Carousel Section */
@@ -156,6 +158,9 @@ nav{
 .right_section{
     width: 40%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .carousel_img{
     max-width: 100%;
@@ -214,7 +219,7 @@ nav{
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
 }
@@ -235,12 +240,100 @@ nav{
     color: var(--primary-color);
 }
 
+
+/* Download Button for small devices */
+.download_button_section{
+    width: 100%;
+    height: auto;
+    gap: 1.3rem;
+    display: none;
+}
+.download_button_section img{
+    width: 170px;
+    height: 50px;
+}
+
 /* For Responsive */
 /* max-width 1024px */
 @media screen and ( max-width: 1024px ) {
-    
+    .main_section {
+        padding: 20px 50px;
+    }
+    .swiper {
+        width: 100%;
+        height: auto;
+    }
 }
 
+/* max-width 768px */
+@media screen and ( max-width: 768px ) {
+    .main_section {
+        padding: 20px 40px;
+    }
+    .share_btn{
+        width: 100px;
+    }
+    .download_btn {
+        display: none;
+    }
+    .carousel_title {
+        font-size: 3.0rem;
+        line-height: 3.68rem;
+    }
+    .result_data_box {
+        gap: 3.75rem;
+        flex-wrap: wrap;
+    }
+    .detail_section{
+        gap: 1.7rem;
+    }
+}
+/* max-width 425px */
+@media screen and ( max-width: 768px ) {
+    .main_section {
+        padding: 20px;
+    }
+    .share_btn{
+        width: 93px;
+        height: 23px;
+        font-size: 12px;
+    }
+    .left_section {
+        margin: 0.5rem;
+    }
+    .carousel_title {
+        font-size: 1.7rem;
+        line-height: 2.68rem;
+    }
+    .left_section h5 {
+        font-size: 1.4rem;
+        line-height: 3.25rem;
+    }
+    .carousel_img {
+        object-fit: cover !important;
+        object-position: center !important;
+    }
+    .play_btn {
+        width: 32px;
+        height: 32px;
+    }
+    .result_data_box {
+        gap: 3.75rem;
+        flex-wrap: wrap;
+    }
+    .detail_section{
+        gap: 1.7rem;
+    }
+    .download_button_section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .download_button_section img{
+        width: 160px;
+    }
+    
+}
 
 
 
