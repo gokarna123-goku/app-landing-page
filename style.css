@@ -167,6 +167,7 @@ nav{
     color: var(--tertiary-color);
     text-transform: uppercase;
 }
+
 .play_btn{
     width: 72px;
     height: 72px;
@@ -313,10 +314,6 @@ nav{
     .social_card i{
         font-size: 2.0rem;
     }
-    .carousel_title {
-        font-size: 3.0rem;
-        line-height: 3.68rem;
-    }
     .result_data_box {
         gap: 3.75rem;
         flex-wrap: wrap;
@@ -368,35 +365,20 @@ nav{
     .landing_page_section {
         margin-bottom: 1.0rem;
     }
-    .hero_video_section{
-        padding: 0 38px;
+    .video_section{
+        padding: 0 30px;
+        margin-bottom: 0.2rem;
     }
-    .video_section {
-        width: 100%;
-        height: 170px;
-        margin-bottom: 0.025rem;
+    .Video_box {
+        width: 350px;
+        height: auto;
     }
-    .left_section {
-        margin: 0.5rem;
-    }
-    .carousel_title {
-        font-size: 1.9rem;
-        line-height: 2.1rem;
-    }
-    .left_section h5 {
-        font-size: 1.25rem;
-        line-height: 1.95rem;
-    }
-    .left_section ul li {
-        font-size: 0.98rem;
-    }
-    .carousel_img{
-        max-width: 100%;
-        max-height: 100%;
+    .vide_title{
+        font-size: 2.50rem;
     }
     .play_btn {
-        width: 32px;
-        height: 32px;
+        width: 35px;
+        height: 35px;
     }
     .result_section {
         margin-bottom: 0rem;
@@ -409,7 +391,7 @@ nav{
     }
     .result_tile {
         font-size: 1.5rem;
-        margin-bottom: 0.38rem;
+        margin-bottom: 0.58rem;
     }
     .result_counter {
         font-size: 1.75rem;
@@ -485,25 +467,6 @@ nav{
     }
     .social_card i{
         font-size: 1.7rem;
-    }
-    .carousel_title {
-        font-size: 1.4rem;
-        line-height: 1.998rem;
-    }
-    .left_section h5 {
-        font-size: 1.15rem;
-        line-height: 2.25rem;
-    }
-    .left_section ul li {
-        font-size: 1.0rem;
-    }
-    .right_section{
-        width: 30%;
-    }
-    .video_section a {
-        top: 60%;
-        left: 60%;
-        transform: translate(-50%, -40%);
     }
     .download_button_section{
         column-gap: 1.5rem;
