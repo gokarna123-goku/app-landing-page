@@ -33,6 +33,10 @@ a{
     border-radius: 30px;
     cursor: pointer;
 }
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    outline: none;
+    box-shadow: none;
+}
 
 /* Main Section Styling */
 .main_section{
