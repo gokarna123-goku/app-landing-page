@@ -142,17 +142,9 @@ nav{
 }
 
 /* Carousel Section */
-.hero_video_section{
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .video_section{
-    position: relative;
-    width: 894px;
-    height: 260px;
+    width: 400px;
+    height: auto;
     display: flex;
     align-items: center;
     border-radius: 6px;
