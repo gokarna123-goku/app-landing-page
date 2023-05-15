@@ -148,6 +148,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1.1rem;
 }
 .Video_box{
     width: 450px;
@@ -161,7 +162,7 @@ nav{
     padding: 10px;
 }
 .vide_title{
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     font-weight: 600;
     color: var(--tertiary-color);
     text-transform: uppercase;
@@ -180,7 +181,7 @@ nav{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 1.0rem;
+    margin-bottom: 1.4rem;
     padding: 0 15px; 
 }
 .result_tile{
@@ -188,7 +189,7 @@ nav{
     font-weight: 700;
     line-height: 2.275rem;
     color: var(--secondary-color);
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.3rem;
 }
 .result_data_box{
     width: 100%;
