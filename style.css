@@ -47,7 +47,7 @@ a{
 nav{
     width: 100%;
     height: auto;
-    padding: 8px 0 8px 0;
+    padding: 8px 40px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -62,7 +62,7 @@ nav{
     justify-content: center;
 }
 .logo_section img{
-    width: 240px;
+    width: 300px;
     height: 5.5vh;
 }
 
@@ -155,7 +155,7 @@ nav{
 }
 .video_section{
     position: relative;
-    width: 864px;
+    width: 894px;
     height: 260px;
     display: flex;
     align-items: center;
@@ -385,7 +385,7 @@ nav{
     }
     nav {
         margin-bottom: 0rem;
-    }
+    } 
     .logo_section img {
         width: 228px;
         height: 5.5vh;
