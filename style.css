@@ -47,7 +47,7 @@ a{
 nav{
     width: 100%;
     height: auto;
-    padding: 8px 40px;
+    padding: 0px 10px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -62,8 +62,8 @@ nav{
     justify-content: center;
 }
 .logo_section img{
-    width: 300px;
-    height: 5.5vh;
+    width: 750px;
+    height: 10vh;
 }
 
 /* Button Section Styling */
@@ -148,7 +148,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1.1rem;
+    margin-bottom: 0.5rem;
 }
 .Video_box{
     width: 450px;
