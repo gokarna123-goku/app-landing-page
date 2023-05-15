@@ -33,7 +33,9 @@ a{
     border-radius: 30px;
     cursor: pointer;
 }
-.btn:focus, .btn:active:focus, .btn.active:focus{
+.btn:focus, 
+.btn:active:focus, 
+.btn.active:focus{
     outline: none;
     box-shadow: none;
 }
@@ -66,8 +68,8 @@ nav{
     justify-content: center;
 }
 .logo_section img{
-    width: 750px;
-    height: 10vh;
+    width: 780px;
+    height: 9vh;
 }
 
 /* Button Section Styling */
@@ -155,7 +157,7 @@ nav{
     margin-bottom: 0.5rem;
 }
 .Video_box{
-    width: 450px;
+    width: 700px;
     height: auto;
     display: flex;
     align-items: center;
@@ -166,10 +168,11 @@ nav{
     padding: 10px;
 }
 .vide_title{
-    font-size: 3.3rem;
+    font-size: 3.5rem;
     font-weight: 600;
     color: var(--tertiary-color);
     text-transform: uppercase;
+    letter-spacing: 0.3rem;
 }
 
 .play_btn{
