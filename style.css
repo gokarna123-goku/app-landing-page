@@ -336,6 +336,9 @@ nav{
     .main_section {
         padding: 10px 40px;
     }
+    nav{
+        padding: 8px 0px;
+    }
     .share_btn{
         width: 100px;
     }
