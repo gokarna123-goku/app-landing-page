@@ -143,74 +143,32 @@ nav{
 
 /* Carousel Section */
 .video_section{
-    width: 400px;
+    width: 100%;
     height: auto;
-    display: flex;
-    align-items: center;
-    border-radius: 6px;
-    margin-bottom: 0.425rem;
-    background: var(--secondary-color);
-}
-
-/* Carousel Left Section */
-.left_section{
-    width: 60%;
-    height: auto;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    /* row-gap: 0.5rem; */
-    margin-left: 2.55rem;
-}
-
-.carousel_title{
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 4rem;
-    line-height: 3.68rem;
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-    color: var(--tertiary-color);
-}
-.left_section h5{
-    font-family: 'Arial';
-    font-weight: 700;
-    font-size: 2rem;
-    line-height: 3.25rem;
-    color: var(--tertiary-color);
-}
-.left_section ul{
-    margin-left: 1rem;
-    color: var(--tertiary-color);
-}
-.left_section ul li{
-    font-size: 1.3rem;
-}
-.video_section a{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 72px;
-    height: 72px;
-}
-.play_btn{
-    width: 72px;
-    height: 72px;
-}
-
-.right_section{
-    width: 40%;
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.carousel_img{
-    max-width: 100%;
-    max-height: 100%;
+.Video_box{
+    width: 450px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    margin-bottom: 0.425rem;
+    background: var(--secondary-color);
+    padding: 10px;
+}
+.vide_title{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--tertiary-color);
+    text-transform: uppercase;
+}
+.play_btn{
+    width: 72px;
+    height: 72px;
 }
 
 /* Results Section */
