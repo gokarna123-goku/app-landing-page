@@ -344,8 +344,8 @@ nav{
         margin-bottom: 0rem;
     } 
     .logo_section img {
-        width: 228px;
-        height: 5.5vh;
+        width: 248px;
+        height: 7.5vh;
     }
     .share_btn{
         width: 100px;
@@ -381,7 +381,7 @@ nav{
         height: auto;
     }
     .vide_title{
-        font-size: 2.50rem;
+        font-size: 2.20rem;
     }
     .play_btn {
         width: 35px;
@@ -474,6 +474,21 @@ nav{
     }
     .social_card i{
         font-size: 1.7rem;
+    }
+    .video_section{
+        padding: 0 30px;
+        margin-bottom: 0.2rem;
+    }
+    .Video_box {
+        width: 340px;
+        height: auto;
+    }
+    .vide_title{
+        font-size: 2.10rem;
+    }
+    .play_btn {
+        width: 35px;
+        height: 35px;
     }
     .download_button_section{
         column-gap: 1.5rem;
